@@ -1,5 +1,7 @@
 import "./App.css";
 import About from "./components/About";
+import Blogs from "./components/Blogs";
+import Footer from "./components/Footer";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import { useActiveSection } from "./hooks/useActiveSection";
@@ -16,6 +18,10 @@ function App() {
       <section id="about">
         <About />
       </section>
+      <section id="blogs">
+        <Blogs />
+      </section>
+        <Footer />
     </div>
   );
 }

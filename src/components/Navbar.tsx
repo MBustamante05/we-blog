@@ -60,7 +60,7 @@ export default function Navbar({ isHome = false }: NavbarProps) {
       <div className="flex justify-between items-center text-4xl font-bold main-font uppercase text-white">
         <button onClick={() => scrollToSection("home")}>
           <h1>
-            Ẅ<span className="text-gray-400">BLOG</span>
+            Ẅ<span className="text-gray-500">BLOG</span>
           </h1>
         </button>
         <button onClick={() => scrollToSection("home")} className={aStyle}>
@@ -69,9 +69,9 @@ export default function Navbar({ isHome = false }: NavbarProps) {
         <button onClick={() => scrollToSection("about")} className={aStyle}>
           About
         </button>
-        <a href="#blogs" className={aStyle}>
+        <button onClick={() => scrollToSection("blogs")} className={aStyle}>
           Blogs
-        </a>
+        </button>
         <a href="#login" className={aStyle}>
           Login
         </a>

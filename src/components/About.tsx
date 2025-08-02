@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div className="px-14 pt-32 pb-10 mx-auto bg-black text-white min-h-screen">
       {/* Grid principal con 5 columnas y alturas automáticas */}
-      <h1 className="text-[200px] font-bold mb-4 uppercase ">Wë develop</h1>
+      <h1 className="text-[200px] font-bold mb-4 uppercase ">Wë <span className="text-[#E136C3]">develop</span></h1>
       <div className="grid grid-cols-6 gap-4 h-full">
         {/* Sección principal - ocupa 3 columnas */}
         <div className="col-span-3 grid grid-rows-2 gap-4">
