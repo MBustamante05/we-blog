@@ -21,7 +21,7 @@ function App() {
       <section id="blogs">
         <Blogs />
       </section>
-        <Footer />
+      <Footer />
     </div>
   );
 }
