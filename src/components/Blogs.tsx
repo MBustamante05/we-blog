@@ -32,6 +32,20 @@ export default function Blogs() {
       description: "Page created to promote a new album of a singer.",
       category: ["Web Development", "Landing Page", "Music"],
     },
+    {
+      id: 5,
+      image: "/project5.png",
+      title: "Memories Survive",
+      description: "Page created to think about the future of humanity and the impact of technology on our lives.",
+      category: ["Web Development", "Landing Page", "Memories", "Future"],
+    },
+    {
+      id: 6,
+      image: "/project6.png",
+      title: "Memories Survive 2",
+      description: "Page created to think about the future of humanity and the impact of technology on our lives.",
+      category: ["Web Development", "Landing Page", "Memories", "Future"],
+    },
   ];
   return (
     <div className="px-14 pt-32 pb-36 mx-auto bg-black text-white min-h-screen">
